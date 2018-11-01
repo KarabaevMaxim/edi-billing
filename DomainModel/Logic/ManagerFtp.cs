@@ -16,7 +16,6 @@
         private readonly FtpPath FtpPath;
         private readonly bool isPassive;
         private readonly Logger logger;
-        private readonly WBService wBService;
         private readonly int timeoutSec;
         private readonly WayBillRepository wayBillRepository;
 
@@ -26,7 +25,6 @@
             this.FtpPath = new FtpPath(SettingsContainer.GetSettings().FtpFolder);
             this.isPassive = isPassive;
             this.logger = logger;
-            this.wBService = new WBService(logger);
             this.timeoutSec = timeoutSec;
             this.wayBillRepository = new WayBillRepository();
         }
@@ -61,14 +59,13 @@
                         {
                             this.logger.WriteLog(string.Format("{0} {1}", "Parsing waybill file", item.Name));
                             XMLConverter converter = new XMLConverter(byteList, this.logger);
-                            
 
-                            if (!this.wBService.AddRecord(converter.GetWaybill()))
+                            if (!this.wayBillRepository.AddEntity(converter.GetWaybill()))
                             {
                                 this.logger.WriteLog(string.Format("{0}: {1}", "Waybill or register writing error. File", item.Name), LogTypes.ERROR);
                             }
 
-                            Waybill waybill = wBService.GetLastWayBill();
+                            Waybill waybill = this.wayBillRepository.GetLast();
                             newFileName = string.Format("{0}_{1}_{2}_{3}.xml", "DESADV", waybill.Number, waybill.DocumentDate.ToString("dd-MM-yyyy"), waybill.GetHashCode());
                         }
                         catch (XmlException ex)

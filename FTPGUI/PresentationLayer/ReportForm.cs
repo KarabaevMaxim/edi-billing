@@ -20,7 +20,6 @@ namespace FTPGui.PresentationLayer
             InitializeComponent();
             this.ClientRepository = new ClientRepository();
             this.WayBillRepository = new WayBillRepository();
-            this.AccumRegisterRepository = new AccumRegisterRepository();
         }
 
         private void ReportForm_Load(object sender, EventArgs e)
@@ -64,26 +63,9 @@ namespace FTPGui.PresentationLayer
             int clientID = (int)table.Rows[e.RowIndex > 0 ? e.RowIndex : 0].Cells["ID"].Value;
 
             this.UpdateP1WaybillTbl(waybills.Where(wb => wb.ClientID == clientID).ToList());
-
-            List<AccumulationRegister> accumulations = AccumRegisterRepository.GetAllEntities().Where(a => a.ClientID == clientID).ToList();
-
-            AccumulationRegister lastRecord = accumulations.Where(a => a.DateTime == accumulations.Max(ac => ac.DateTime)).FirstOrDefault();
-
-            if (lastRecord == null)
-            {
-                P1TotalWbTxt.Text = "waybills not found.";
-                P1TotalRoamWbTxt.Text = "waybills not found.";
-                return;
-            }
-
-            P1TotalWbTxt.Text = lastRecord.TotalAmount.ToString();
-            P1TotalRoamWbTxt.Text = lastRecord.RoamingAmount.ToString();
         }
 
         private ClientRepository ClientRepository { get; set; }
         private WayBillRepository WayBillRepository { get; set; }
-        private AccumRegisterRepository AccumRegisterRepository { get; set; }
-
-
     }
 }

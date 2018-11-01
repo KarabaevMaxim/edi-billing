@@ -32,6 +32,14 @@ namespace DomainModel.Repository
             return this.Context.Waybills.Where(wb => wb.ID == id).FirstOrDefault();
         }
 
+        public Waybill GetLast()
+        {
+            List<Waybill> waybills = this.GetAllEntities();
+            DateTime lastDate = waybills.Max(wb => wb.DownloadDate);
+            Waybill waybill = waybills.Where(wb => wb.DownloadDate == lastDate).FirstOrDefault();
+            return waybill;
+        }
+
         public bool RemoveEntity(int id)
         {
             this.Context.Waybills.Remove(this.Context.Waybills.Where(c => c.ID == id).FirstOrDefault());

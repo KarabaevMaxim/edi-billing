@@ -31,7 +31,6 @@
             this.SupplierRepository = new SupplierRepository();
             this.ClientRepository = new ClientRepository();
             this.WayBillRepository = new WayBillRepository();
-            this.AccumRegisterRepository = new AccumRegisterRepository();
             this.Logger = logger;
         }
         /// <summary>
@@ -262,97 +261,9 @@
             XDocument xDoc = new XDocument();
             XElement document = new XElement(this.XNamespace + XmlParser.XmlTagNames[XmlTags.Document]);
             List<Waybill> waybills = this.WayBillRepository.GetAllEntities().Where(wb => wb.DownloadDate > beginDate && wb.DownloadDate < endDate).ToList();
-            List<AccumulationRegister> registerRecords = this.AccumRegisterRepository.GetAllEntities().Where(rr => rr.DateTime > beginDate && rr.DateTime < endDate).ToList();
-            // document.Add(this.GetXmlWaybills(waybills), this.GetXmlAccumulation(registerRecords));
             document.Add(this.GetXmlWaybills(waybills));
             xDoc.Add(document);
             return xDoc;
-        }
-
-        //private XElement GetXmlWaybills(List<Waybill> waybillList)
-        //{
-        //    XElement waybills = new XElement(XNamespace + XmlParser.XmlTagNames[XmlTags.WayBills]);
-
-        //    foreach (var item in waybillList)
-        //    {
-        //        XElement waybill = new XElement(XNamespace + XmlParser.XmlTagNames[XmlTags.WayBill]);
-        //        XElement wayBillNumber = new XElement(XNamespace + XmlParser.XmlTagNames[XmlTags.WayBillNumber], item.Number);
-        //        XElement wayBillDate = new XElement(XNamespace + XmlParser.XmlTagNames[XmlTags.WayBillDate], item.DocumentDate.ToString("yyyy-MM-dd"));
-        //        XElement downloadDate = new XElement(XNamespace + XmlParser.XmlTagNames[XmlTags.DownloadDateTime], item.DownloadDate.ToString("yyyy-MM-dd hh:mm:ss"));
-        //        string supCode = string.Empty;
-
-        //        try
-        //        {
-        //            supCode = this.SupplierRepository.GetEntity(item.SupplierID).ExCode;
-        //        }
-        //        catch (NullReferenceException)
-        //        {
-        //            this.Logger.WriteLog(string.Format("Поставщик с ID: {0} не найден.", item.SupplierID));
-        //        }
-
-        //        XElement supplierCode = new XElement(XNamespace + XmlParser.XmlTagNames[XmlTags.SupplierCode], supCode);
-        //        string clCode = string.Empty;
-
-        //        try
-        //        {
-        //            clCode = this.ClientRepository.GetEntity(item.ClientID).ExCode;
-        //        }
-        //        catch (NullReferenceException)
-        //        {
-        //            this.Logger.WriteLog(string.Format("Клиент с ID: {0} не найден.", item.ClientID));
-        //        }
-
-        //        XElement clientCode = new XElement(XNamespace + XmlParser.XmlTagNames[XmlTags.ClientCode], clCode);
-        //        string toCode = string.Empty;
-
-        //        try
-        //        {
-        //            toCode = this.TradeObjectRepository.GetEntity(item.TradeObjectID).ExCode;
-        //        }
-        //        catch (NullReferenceException)
-        //        {
-        //            this.Logger.WriteLog(string.Format("Торговый объект с ID: {0} не найден.", item.TradeObjectID));
-        //        }
-
-        //        XElement tradeObjectCode = new XElement(XNamespace + XmlParser.XmlTagNames[XmlTags.TradeObjectCode], toCode);
-        //        XElement roaming = new XElement(XNamespace + XmlParser.XmlTagNames[XmlTags.Roaming], item.IsRoaming);
-        //        XElement exCode = new XElement(XNamespace + XmlParser.XmlTagNames[XmlTags.Roaming], item.ID);
-        //        waybill.Add(wayBillNumber, wayBillDate, downloadDate, supplierCode, clientCode, tradeObjectCode, roaming);
-        //        waybills.Add(waybill);
-        //    }
-
-        //    return waybills;
-        //}
-
-        private XElement GetXmlAccumulation(List<AccumulationRegister> accumRegList)
-        {
-            XElement records = new XElement(XNamespace + XmlParser.XmlTagNames[XmlTags.RegisterRecords]);
-
-            foreach (var item in accumRegList)
-            {
-                XElement record = new XElement(this.XNamespace + XmlParser.XmlTagNames[XmlTags.RegisterRecord]);
-                XElement code = new XElement(this.XNamespace + XmlParser.XmlTagNames[XmlTags.Code], item.ID);
-                XElement wayBillCode = new XElement(this.XNamespace + XmlParser.XmlTagNames[XmlTags.WayBillCode], item.WaybillID);
-
-                string clCode = string.Empty;
-                try
-                {
-                    clCode = this.ClientRepository.GetEntity(item.ClientID).ExCode;
-                }
-                catch (NullReferenceException)
-                {
-                    this.Logger.WriteLog(string.Format("Client with ID: {0} not found.", item.ClientID));
-                }
-                XElement clientCode = new XElement(this.XNamespace + XmlParser.XmlTagNames[XmlTags.ClientCode], clCode);
-
-                XElement roaming = new XElement(this.XNamespace + XmlParser.XmlTagNames[XmlTags.Roaming], item.IsRoaming);
-                XElement totalAmount = new XElement(this.XNamespace + XmlParser.XmlTagNames[XmlTags.TotalAmount], item.TotalAmount);
-                XElement roamingAmount = new XElement(this.XNamespace + XmlParser.XmlTagNames[XmlTags.RoamingAmount], item.RoamingAmount);
-                XElement dateTime = new XElement(this.XNamespace + XmlParser.XmlTagNames[XmlTags.DateTime], item.DateTime.ToString("yyyy-MM-dd hh:mm:ss"));
-                record.Add(code, wayBillCode, clientCode, roaming, totalAmount, roamingAmount, dateTime);
-                records.Add(record);
-            }
-            return records;
         }
 
         private XElement GetXmlWaybills(List<Waybill> waybillList)
@@ -420,6 +331,5 @@
         private ClientRepository ClientRepository { get; set; }
         private WayBillRepository WayBillRepository { get; set; }
         private TradeObjectRepository TradeObjectRepository { get; set; } 
-        private AccumRegisterRepository AccumRegisterRepository { get; set; }
     }
 }
