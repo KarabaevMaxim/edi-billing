@@ -16,18 +16,18 @@ namespace ModelTest
         [TestMethod]
         public void AddRecord()
         {
-            WBService wBService = new WBService(new Logger("Log.log", "Testing"));
+            //WBService wBService = new WBService(new Logger("Log.log", "Testing"));
 
-            List<byte> bytes = new List<byte>();
-            var bytesAr = File.ReadAllBytes("Test.xml");
+            //List<byte> bytes = new List<byte>();
+            //var bytesAr = File.ReadAllBytes("Test.xml");
 
-            foreach (var item in bytesAr)
-            {
-                bytes.Add(item);
-            }
+            //foreach (var item in bytesAr)
+            //{
+            //    bytes.Add(item);
+            //}
 
-            XMLConverter converter = new XMLConverter(bytes, new Logger("Log.log", "Testing"));
-            Assert.IsTrue(wBService.AddRecord(converter.GetWaybill()));
+            //XMLConverter converter = new XMLConverter(bytes, new Logger("Log.log", "Testing"));
+            //Assert.IsTrue(wBService.AddRecord(converter.GetWaybill()));
         }
     }
 }

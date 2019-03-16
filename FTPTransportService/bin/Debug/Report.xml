@@ -1,0 +1,1225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns="http://www.1c.ru/EDI/Download">
+  <RegisterRecords>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9025334</WayBillNumber>
+      <WayBillDate>2019-02-01</WayBillDate>
+      <DownloadDateTime>2019-02-01 05:11:36</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000010</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>767</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9025250</WayBillNumber>
+      <WayBillDate>2019-02-01</WayBillDate>
+      <DownloadDateTime>2019-02-01 05:12:44</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000012</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>768</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9025915</WayBillNumber>
+      <WayBillDate>2019-02-01</WayBillDate>
+      <DownloadDateTime>2019-02-01 05:14:42</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000016</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>769</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9025477</WayBillNumber>
+      <WayBillDate>2019-02-01</WayBillDate>
+      <DownloadDateTime>2019-02-01 05:15:02</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000016</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>770</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9025939</WayBillNumber>
+      <WayBillDate>2019-02-01</WayBillDate>
+      <DownloadDateTime>2019-02-01 05:15:02</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000016</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>771</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9025901</WayBillNumber>
+      <WayBillDate>2019-02-01</WayBillDate>
+      <DownloadDateTime>2019-02-01 05:15:33</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000017</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>772</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9025230</WayBillNumber>
+      <WayBillDate>2019-02-01</WayBillDate>
+      <DownloadDateTime>2019-02-01 05:15:53</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000017</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>773</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9025711</WayBillNumber>
+      <WayBillDate>2019-02-01</WayBillDate>
+      <DownloadDateTime>2019-02-01 05:15:54</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000017</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>774</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9023838</WayBillNumber>
+      <WayBillDate>2019-02-01</WayBillDate>
+      <DownloadDateTime>2019-02-01 08:43:24</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000017</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>775</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9023384</WayBillNumber>
+      <WayBillDate>2019-02-01</WayBillDate>
+      <DownloadDateTime>2019-02-01 09:42:52</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000016</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>776</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9026417</WayBillNumber>
+      <WayBillDate>2019-02-02</WayBillDate>
+      <DownloadDateTime>2019-02-01 08:41:53</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000013</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>777</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9026308</WayBillNumber>
+      <WayBillDate>2019-02-02</WayBillDate>
+      <DownloadDateTime>2019-02-01 08:43:14</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000016</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>778</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9026321</WayBillNumber>
+      <WayBillDate>2019-02-02</WayBillDate>
+      <DownloadDateTime>2019-02-01 08:43:37</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000016</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>779</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9026324</WayBillNumber>
+      <WayBillDate>2019-02-02</WayBillDate>
+      <DownloadDateTime>2019-02-01 08:43:37</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000016</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>780</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9026581</WayBillNumber>
+      <WayBillDate>2019-02-02</WayBillDate>
+      <DownloadDateTime>2019-02-02 05:11:52</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000013</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>781</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9024372</WayBillNumber>
+      <WayBillDate>2019-02-02</WayBillDate>
+      <DownloadDateTime>2019-02-02 05:12:12</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000013</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>782</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9024255</WayBillNumber>
+      <WayBillDate>2019-02-02</WayBillDate>
+      <DownloadDateTime>2019-02-02 05:13:16</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000016</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>783</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9026960</WayBillNumber>
+      <WayBillDate>2019-02-04</WayBillDate>
+      <DownloadDateTime>2019-02-02 09:43:13</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000017</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>784</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9027226</WayBillNumber>
+      <WayBillDate>2019-02-04</WayBillDate>
+      <DownloadDateTime>2019-02-02 11:12:53</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000016</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>785</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9024863</WayBillNumber>
+      <WayBillDate>2019-02-04</WayBillDate>
+      <DownloadDateTime>2019-02-04 05:42:53</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000016</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>786</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9024923</WayBillNumber>
+      <WayBillDate>2019-02-04</WayBillDate>
+      <DownloadDateTime>2019-02-04 06:40:51</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000010</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>787</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9025150</WayBillNumber>
+      <WayBillDate>2019-02-04</WayBillDate>
+      <DownloadDateTime>2019-02-04 09:13:14</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000017</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>788</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9029646</WayBillNumber>
+      <WayBillDate>2019-02-06</WayBillDate>
+      <DownloadDateTime>2019-02-06 05:10:52</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000010</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>789</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9029921</WayBillNumber>
+      <WayBillDate>2019-02-06</WayBillDate>
+      <DownloadDateTime>2019-02-06 05:11:12</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000010</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>790</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9029481</WayBillNumber>
+      <WayBillDate>2019-02-06</WayBillDate>
+      <DownloadDateTime>2019-02-06 05:12:33</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000014</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>791</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9029460</WayBillNumber>
+      <WayBillDate>2019-02-06</WayBillDate>
+      <DownloadDateTime>2019-02-06 05:13:34</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000016</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>792</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9029512</WayBillNumber>
+      <WayBillDate>2019-02-06</WayBillDate>
+      <DownloadDateTime>2019-02-06 05:13:54</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000016</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>793</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9027137</WayBillNumber>
+      <WayBillDate>2019-02-06</WayBillDate>
+      <DownloadDateTime>2019-02-06 07:40:53</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000010</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>794</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9027119</WayBillNumber>
+      <WayBillDate>2019-02-06</WayBillDate>
+      <DownloadDateTime>2019-02-06 08:11:15</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000011</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>795</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9027283</WayBillNumber>
+      <WayBillDate>2019-02-06</WayBillDate>
+      <DownloadDateTime>2019-02-06 08:42:54</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000016</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>796</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9027644</WayBillNumber>
+      <WayBillDate>2019-02-06</WayBillDate>
+      <DownloadDateTime>2019-02-06 09:12:55</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000016</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>797</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9026807</WayBillNumber>
+      <WayBillDate>2019-02-06</WayBillDate>
+      <DownloadDateTime>2019-02-06 09:13:35</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000017</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>798</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9027611</WayBillNumber>
+      <WayBillDate>2019-02-06</WayBillDate>
+      <DownloadDateTime>2019-02-06 09:43:14</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000017</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>799</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9030949</WayBillNumber>
+      <WayBillDate>2019-02-07</WayBillDate>
+      <DownloadDateTime>2019-02-07 05:10:33</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000009</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>800</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9030790</WayBillNumber>
+      <WayBillDate>2019-02-07</WayBillDate>
+      <DownloadDateTime>2019-02-07 05:10:53</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000009</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>801</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9030414</WayBillNumber>
+      <WayBillDate>2019-02-07</WayBillDate>
+      <DownloadDateTime>2019-02-07 05:11:14</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000010</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>802</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9030342</WayBillNumber>
+      <WayBillDate>2019-02-07</WayBillDate>
+      <DownloadDateTime>2019-02-07 05:11:54</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000011</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>803</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9027873</WayBillNumber>
+      <WayBillDate>2019-02-07</WayBillDate>
+      <DownloadDateTime>2019-02-07 05:12:14</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000011</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>804</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9031380</WayBillNumber>
+      <WayBillDate>2019-02-07</WayBillDate>
+      <DownloadDateTime>2019-02-07 05:12:55</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000013</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>805</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9030673</WayBillNumber>
+      <WayBillDate>2019-02-07</WayBillDate>
+      <DownloadDateTime>2019-02-07 05:13:35</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000014</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>806</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9030813</WayBillNumber>
+      <WayBillDate>2019-02-07</WayBillDate>
+      <DownloadDateTime>2019-02-07 05:14:57</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000017</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>807</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9031812</WayBillNumber>
+      <WayBillDate>2019-02-08</WayBillDate>
+      <DownloadDateTime>2019-02-08 06:40:33</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000009</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>808</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9029254</WayBillNumber>
+      <WayBillDate>2019-02-08</WayBillDate>
+      <DownloadDateTime>2019-02-08 07:10:33</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000009</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>809</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9030322</WayBillNumber>
+      <WayBillDate>2019-02-09</WayBillDate>
+      <DownloadDateTime>2019-02-09 05:13:15</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000017</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>810</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9033216</WayBillNumber>
+      <WayBillDate>2019-02-09</WayBillDate>
+      <DownloadDateTime>2019-02-09 05:13:35</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000017</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>811</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9033805</WayBillNumber>
+      <WayBillDate>2019-02-11</WayBillDate>
+      <DownloadDateTime>2019-02-09 10:12:57</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000016</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>812</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9034163</WayBillNumber>
+      <WayBillDate>2019-02-11</WayBillDate>
+      <DownloadDateTime>2019-02-09 04:42:56</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000016</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>813</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9030600</WayBillNumber>
+      <WayBillDate>2019-02-11</WayBillDate>
+      <DownloadDateTime>2019-02-11 05:12:52</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000016</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>814</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9030814</WayBillNumber>
+      <WayBillDate>2019-02-11</WayBillDate>
+      <DownloadDateTime>2019-02-11 09:40:30</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000009</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>815</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9030507</WayBillNumber>
+      <WayBillDate>2019-02-11</WayBillDate>
+      <DownloadDateTime>2019-02-11 09:40:50</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000009</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>816</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9035021</WayBillNumber>
+      <WayBillDate>2019-02-12</WayBillDate>
+      <DownloadDateTime>2019-02-12 05:10:31</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000009</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>817</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9035052</WayBillNumber>
+      <WayBillDate>2019-02-12</WayBillDate>
+      <DownloadDateTime>2019-02-12 05:10:51</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000009</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>818</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9035366</WayBillNumber>
+      <WayBillDate>2019-02-12</WayBillDate>
+      <DownloadDateTime>2019-02-12 05:11:32</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000011</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>819</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9035349</WayBillNumber>
+      <WayBillDate>2019-02-12</WayBillDate>
+      <DownloadDateTime>2019-02-12 05:12:12</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000012</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>820</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9035552</WayBillNumber>
+      <WayBillDate>2019-02-12</WayBillDate>
+      <DownloadDateTime>2019-02-12 05:12:32</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000012</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>821</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9032018</WayBillNumber>
+      <WayBillDate>2019-02-12</WayBillDate>
+      <DownloadDateTime>2019-02-12 05:40:52</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000010</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>822</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9032375</WayBillNumber>
+      <WayBillDate>2019-02-12</WayBillDate>
+      <DownloadDateTime>2019-02-12 10:13:13</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000017</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>823</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9032352</WayBillNumber>
+      <WayBillDate>2019-02-12</WayBillDate>
+      <DownloadDateTime>2019-02-12 10:41:32</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000012</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>824</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9033120</WayBillNumber>
+      <WayBillDate>2019-02-13</WayBillDate>
+      <DownloadDateTime>2019-02-13 05:10:51</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000010</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>825</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9036663</WayBillNumber>
+      <WayBillDate>2019-02-13</WayBillDate>
+      <DownloadDateTime>2019-02-13 05:11:11</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000010</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>826</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9036908</WayBillNumber>
+      <WayBillDate>2019-02-13</WayBillDate>
+      <DownloadDateTime>2019-02-13 05:11:32</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000011</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>827</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9037105</WayBillNumber>
+      <WayBillDate>2019-02-13</WayBillDate>
+      <DownloadDateTime>2019-02-13 05:13:33</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000016</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>828</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9036818</WayBillNumber>
+      <WayBillDate>2019-02-13</WayBillDate>
+      <DownloadDateTime>2019-02-13 05:13:53</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000016</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>829</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9036736</WayBillNumber>
+      <WayBillDate>2019-02-13</WayBillDate>
+      <DownloadDateTime>2019-02-13 05:13:54</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000016</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>830</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9036777</WayBillNumber>
+      <WayBillDate>2019-02-13</WayBillDate>
+      <DownloadDateTime>2019-02-13 05:13:54</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000016</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>831</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9033969</WayBillNumber>
+      <WayBillDate>2019-02-13</WayBillDate>
+      <DownloadDateTime>2019-02-13 08:41:32</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000012</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>832</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9033868</WayBillNumber>
+      <WayBillDate>2019-02-13</WayBillDate>
+      <DownloadDateTime>2019-02-13 08:42:33</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000014</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>833</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9033454</WayBillNumber>
+      <WayBillDate>2019-02-13</WayBillDate>
+      <DownloadDateTime>2019-02-13 08:43:34</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000016</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>834</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9037319</WayBillNumber>
+      <WayBillDate>2019-02-14</WayBillDate>
+      <DownloadDateTime>2019-02-14 05:11:52</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000013</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>835</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9034547</WayBillNumber>
+      <WayBillDate>2019-02-14</WayBillDate>
+      <DownloadDateTime>2019-02-14 06:11:12</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000011</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>836</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9034441</WayBillNumber>
+      <WayBillDate>2019-02-14</WayBillDate>
+      <DownloadDateTime>2019-02-14 06:41:15</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000011</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>837</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9039953</WayBillNumber>
+      <WayBillDate>2019-02-16</WayBillDate>
+      <DownloadDateTime>2019-02-15 08:43:14</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000017</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>838</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9040212</WayBillNumber>
+      <WayBillDate>2019-02-16</WayBillDate>
+      <DownloadDateTime>2019-02-15 09:13:17</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000017</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>839</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9036725</WayBillNumber>
+      <WayBillDate>2019-02-16</WayBillDate>
+      <DownloadDateTime>2019-02-16 05:13:14</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000017</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>840</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9040651</WayBillNumber>
+      <WayBillDate>2019-02-18</WayBillDate>
+      <DownloadDateTime>2019-02-16 09:12:54</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000016</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>841</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9040664</WayBillNumber>
+      <WayBillDate>2019-02-18</WayBillDate>
+      <DownloadDateTime>2019-02-16 09:13:14</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000016</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>842</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9037164</WayBillNumber>
+      <WayBillDate>2019-02-18</WayBillDate>
+      <DownloadDateTime>2019-02-18 06:40:31</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000009</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>843</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9037436</WayBillNumber>
+      <WayBillDate>2019-02-18</WayBillDate>
+      <DownloadDateTime>2019-02-18 09:12:53</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000016</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>844</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9042253</WayBillNumber>
+      <WayBillDate>2019-02-19</WayBillDate>
+      <DownloadDateTime>2019-02-19 05:10:51</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000010</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>845</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9042166</WayBillNumber>
+      <WayBillDate>2019-02-19</WayBillDate>
+      <DownloadDateTime>2019-02-19 05:11:11</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000010</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>846</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9041966</WayBillNumber>
+      <WayBillDate>2019-02-19</WayBillDate>
+      <DownloadDateTime>2019-02-19 05:11:31</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000011</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>847</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9041531</WayBillNumber>
+      <WayBillDate>2019-02-19</WayBillDate>
+      <DownloadDateTime>2019-02-19 05:11:52</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000011</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>848</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9038236</WayBillNumber>
+      <WayBillDate>2019-02-19</WayBillDate>
+      <DownloadDateTime>2019-02-19 08:10:51</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000010</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>849</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9039171</WayBillNumber>
+      <WayBillDate>2019-02-19</WayBillDate>
+      <DownloadDateTime>2019-02-19 09:43:13</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000017</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>850</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9043033</WayBillNumber>
+      <WayBillDate>2019-02-20</WayBillDate>
+      <DownloadDateTime>2019-02-20 05:11:53</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000013</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>851</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9044000</WayBillNumber>
+      <WayBillDate>2019-02-20</WayBillDate>
+      <DownloadDateTime>2019-02-20 05:12:13</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000013</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>852</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9043330</WayBillNumber>
+      <WayBillDate>2019-02-20</WayBillDate>
+      <DownloadDateTime>2019-02-20 05:12:34</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000014</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>853</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9043903</WayBillNumber>
+      <WayBillDate>2019-02-20</WayBillDate>
+      <DownloadDateTime>2019-02-20 05:12:54</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000014</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>854</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9043177</WayBillNumber>
+      <WayBillDate>2019-02-20</WayBillDate>
+      <DownloadDateTime>2019-02-20 05:13:35</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000016</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>855</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9043922</WayBillNumber>
+      <WayBillDate>2019-02-20</WayBillDate>
+      <DownloadDateTime>2019-02-20 05:13:55</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000016</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>856</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9043726</WayBillNumber>
+      <WayBillDate>2019-02-20</WayBillDate>
+      <DownloadDateTime>2019-02-20 05:13:55</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000016</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>857</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9039628</WayBillNumber>
+      <WayBillDate>2019-02-20</WayBillDate>
+      <DownloadDateTime>2019-02-20 07:12:54</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000016</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>858</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9039627</WayBillNumber>
+      <WayBillDate>2019-02-20</WayBillDate>
+      <DownloadDateTime>2019-02-20 07:13:14</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000016</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>859</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9039900</WayBillNumber>
+      <WayBillDate>2019-02-20</WayBillDate>
+      <DownloadDateTime>2019-02-20 07:13:14</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000016</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>860</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9044164</WayBillNumber>
+      <WayBillDate>2019-02-21</WayBillDate>
+      <DownloadDateTime>2019-02-21 05:10:54</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000010</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>861</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9044222</WayBillNumber>
+      <WayBillDate>2019-02-21</WayBillDate>
+      <DownloadDateTime>2019-02-21 05:13:37</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000017</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>862</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9040910</WayBillNumber>
+      <WayBillDate>2019-02-21</WayBillDate>
+      <DownloadDateTime>2019-02-21 09:10:52</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000010</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>863</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9040901</WayBillNumber>
+      <WayBillDate>2019-02-21</WayBillDate>
+      <DownloadDateTime>2019-02-21 09:11:33</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000011</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>864</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9040946</WayBillNumber>
+      <WayBillDate>2019-02-21</WayBillDate>
+      <DownloadDateTime>2019-02-21 09:11:53</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000011</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>865</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9046040</WayBillNumber>
+      <WayBillDate>2019-02-22</WayBillDate>
+      <DownloadDateTime>2019-02-22 05:11:36</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000012</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>866</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9045256</WayBillNumber>
+      <WayBillDate>2019-02-22</WayBillDate>
+      <DownloadDateTime>2019-02-22 05:11:56</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000012</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>867</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9046043</WayBillNumber>
+      <WayBillDate>2019-02-22</WayBillDate>
+      <DownloadDateTime>2019-02-22 05:13:38</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000017</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>868</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9046306</WayBillNumber>
+      <WayBillDate>2019-02-22</WayBillDate>
+      <DownloadDateTime>2019-02-22 05:13:58</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000017</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>869</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9042620</WayBillNumber>
+      <WayBillDate>2019-02-22</WayBillDate>
+      <DownloadDateTime>2019-02-22 01:13:15</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000017</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>870</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9047014</WayBillNumber>
+      <WayBillDate>2019-02-25</WayBillDate>
+      <DownloadDateTime>2019-02-23 08:13:03</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000016</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>871</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9047079</WayBillNumber>
+      <WayBillDate>2019-02-25</WayBillDate>
+      <DownloadDateTime>2019-02-23 08:41:58</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000013</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>872</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9043659</WayBillNumber>
+      <WayBillDate>2019-02-25</WayBillDate>
+      <DownloadDateTime>2019-02-25 08:43:04</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000016</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>873</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9044096</WayBillNumber>
+      <WayBillDate>2019-02-25</WayBillDate>
+      <DownloadDateTime>2019-02-25 08:43:24</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000016</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>874</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9044342</WayBillNumber>
+      <WayBillDate>2019-02-25</WayBillDate>
+      <DownloadDateTime>2019-02-25 10:10:32</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000009</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>875</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9049557</WayBillNumber>
+      <WayBillDate>2019-02-27</WayBillDate>
+      <DownloadDateTime>2019-02-27 05:10:53</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000010</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>876</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9049542</WayBillNumber>
+      <WayBillDate>2019-02-27</WayBillDate>
+      <DownloadDateTime>2019-02-27 05:11:34</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000011</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>877</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9049610</WayBillNumber>
+      <WayBillDate>2019-02-27</WayBillDate>
+      <DownloadDateTime>2019-02-27 05:12:14</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000012</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>878</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9049812</WayBillNumber>
+      <WayBillDate>2019-02-27</WayBillDate>
+      <DownloadDateTime>2019-02-27 05:12:55</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000013</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>879</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9049712</WayBillNumber>
+      <WayBillDate>2019-02-27</WayBillDate>
+      <DownloadDateTime>2019-02-27 05:14:16</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000016</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>880</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКУ9049295</WayBillNumber>
+      <WayBillDate>2019-02-27</WayBillDate>
+      <DownloadDateTime>2019-02-27 05:14:36</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000016</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>881</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9047386</WayBillNumber>
+      <WayBillDate>2019-02-27</WayBillDate>
+      <DownloadDateTime>2019-02-27 09:40:53</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000010</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>882</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9047377</WayBillNumber>
+      <WayBillDate>2019-02-27</WayBillDate>
+      <DownloadDateTime>2019-02-27 09:41:13</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000010</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>883</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9046617</WayBillNumber>
+      <WayBillDate>2019-02-27</WayBillDate>
+      <DownloadDateTime>2019-02-27 09:41:54</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000012</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>884</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9046618</WayBillNumber>
+      <WayBillDate>2019-02-27</WayBillDate>
+      <DownloadDateTime>2019-02-27 09:43:56</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000017</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>885</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9047519</WayBillNumber>
+      <WayBillDate>2019-02-27</WayBillDate>
+      <DownloadDateTime>2019-02-27 10:12:55</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000016</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>886</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9047524</WayBillNumber>
+      <WayBillDate>2019-02-27</WayBillDate>
+      <DownloadDateTime>2019-02-27 10:13:15</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000016</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>887</ExCode>
+    </RegisterRecord>
+    <RegisterRecord>
+      <WayBillNumber>ТКС9047541</WayBillNumber>
+      <WayBillDate>2019-02-27</WayBillDate>
+      <DownloadDateTime>2019-02-27 10:43:07</DownloadDateTime>
+      <SupplierCode>000000001</SupplierCode>
+      <ClientCode>000000001</ClientCode>
+      <TradeObjectCode>000000016</TradeObjectCode>
+      <Roaming>false</Roaming>
+      <ExCode>888</ExCode>
+    </RegisterRecord>
+  </RegisterRecords>
+</Document>

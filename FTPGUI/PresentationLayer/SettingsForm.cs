@@ -1,17 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using System.IO;
-
-namespace FTPGui.PresentationLayer
+﻿namespace FTPGui.PresentationLayer
 {
-    using DomainModel.Model;
+	using System;
+	using System.Windows.Forms;
+	using DomainModel.Model;
     using DomainModel.Logic;
 
     public partial class SettingsForm : Form
@@ -38,7 +29,8 @@ namespace FTPGui.PresentationLayer
             ExchFolderTxt.Text = settings.ExchangeFolder;
             DownFileNameTxt.Text = settings.DownloadExchangeFileName;
             UpFileNameTxt.Text = settings.UploadExchangeFileName;
-        }
+			DayOfMonthToUnloadTxt.Text = settings.DayOfMonthToUnload.ToString();
+		}
 
         /// <summary>
         /// Нажатие на кнопку закрыть и сохранить.
@@ -59,12 +51,13 @@ namespace FTPGui.PresentationLayer
                     FtpTimeoutSec = int.Parse(FtpTimeoutTxt.Text),
                     ExchangeFolder = ExchFolderTxt.Text,
                     DownloadExchangeFileName = DownFileNameTxt.Text,
-                    UploadExchangeFileName = UpFileNameTxt.Text
+                    UploadExchangeFileName = UpFileNameTxt.Text,
+					DayOfMonthToUnload = int.Parse(DayOfMonthToUnloadTxt.Text)
             });
             }
             catch(FormatException)
             {
-                MessageBox.Show("The format of the argument is not valid.", "Error");
+                MessageBox.Show("Не удалось сохранить настройки.", "Ошибка формата");
                 return;
             }
             

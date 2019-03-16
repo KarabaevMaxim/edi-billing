@@ -17,7 +17,8 @@
             ServiceBase[] ServicesToRun;
             ServicesToRun = new ServiceBase[]
             {
-                new FTPTransporter()
+                new FTPTransporter(),
+				new ExchangeService()
             };
             ServiceBase.Run(ServicesToRun);
         }

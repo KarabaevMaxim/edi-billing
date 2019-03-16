@@ -3,6 +3,8 @@
     using System;
     using System.IO;
     using System.Xml.Linq;
+	using System.Threading;
+	using System.Threading.Tasks;
     using System.Collections.Generic;
     using Repository;
     using XML;
@@ -128,7 +130,8 @@
             {
                 XMLConverter converter = new XMLConverter(this.Logger);
                 converter.GetXmlAll().Save(Path.Combine(this.ExchangeFolder, this.UploadFileName));
-            }
+				this.LastExchangeUnloadDateTime = DateTime.Now;
+			}
             catch(UnauthorizedAccessException ex)
             {
                 this.Logger.WriteLog(string.Format("{0}: {1}, {2}: {3}", "Not enough permissions to create a file", ex.Source, ex.Message, ex.StackTrace), LogTypes.ERROR);
@@ -141,17 +144,44 @@
             {
                 XMLConverter converter = new XMLConverter(this.Logger);
                 converter.GetXmlAllToPeriod(begin, end).Save(Path.Combine(this.ExchangeFolder, this.UploadFileName));
-            }
+				this.LastExchangeUnloadDateTime = DateTime.Now;
+			}
             catch(UnauthorizedAccessException ex)
             {
                 this.Logger.WriteLog(string.Format("{0}: {1}, {2}: {3}", "Not enough permissions to create a file", ex.Source, ex.Message, ex.StackTrace), LogTypes.ERROR);
             }
         }
 
-        /// <summary>
-        /// Логгер.
-        /// </summary>
-        private Logger Logger { get; set; }
+		/// <summary>
+		/// Запускает выгрузку.
+		/// </summary>
+		/// <param name="date">Дата выгрузки.</param>
+		/// <param name="beginPeriod">Начало периода выгрузки.</param>
+		/// <param name="endPeriod">Конец периода выгрузки.</param>
+		public void UnloadOnDate(DateTime date, DateTime beginPeriod, DateTime endPeriod)
+		{
+			if (DateTime.Now >= date)
+				this.UnloadToPeriod(beginPeriod, endPeriod);
+		}
+
+		/// <summary>
+		/// Запускает выгрузку
+		/// </summary>
+		public void UnloadForLastMonthOnDate(DateTime date)
+		{
+			if (DateTime.Now >= date)
+			{
+				DateTime startPeriodDateTime = (new DateTime(date.Year, date.Month, 1)).AddMonths(-1);
+				DateTime endPeriodDateTime = (new DateTime(startPeriodDateTime.Year, startPeriodDateTime.Month, 1)).AddMonths(1).AddDays(-1);
+
+				this.UnloadOnDate(date, startPeriodDateTime, endPeriodDateTime);
+			}
+		}
+
+		/// <summary>
+		/// Логгер.
+		/// </summary>
+		private Logger Logger { get; set; }
         /// <summary>
         /// Локальное имя файла загрузки.
         /// </summary>
@@ -164,6 +194,10 @@
         /// Папка обмена.
         /// </summary>
         private string ExchangeFolder { get; set; }
+		/// <summary>
+		/// Дата последней выгрузки.
+		/// </summary>
+		private DateTime LastExchangeUnloadDateTime { get; set; }
         /// <summary>
         /// Репозиторий клиентов.
         /// </summary>

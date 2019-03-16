@@ -50,7 +50,8 @@
                                             this.Settings.FtpTimeoutSec, this.Logger);
             this.WayBillRepository = new WayBillRepository();
             this.TradeObjectRepository = new TradeObjectRepository();
-        }
+
+		}
 
         /// <summary>
         /// Событие запуска службы.
@@ -87,7 +88,6 @@
         {
             this.Logger.WriteLog("Start checking waybills on a FTP server");
 
-
             foreach (var item in this.TradeObjectRepository.GetAllEntities())
             {
                 this.Logger.WriteLog("Checking object ID:" + item.ID + " " + item.Name);
@@ -102,8 +102,7 @@
                 }
             }
 
-
             this.Logger.WriteLog("End checking waybills on a FTP server");
-        }
+		}
     }
 }

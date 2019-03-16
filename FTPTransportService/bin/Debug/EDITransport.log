@@ -1,0 +1,185 @@
+01.11.2018 14:02:50: INFO Start checking waybills on a FTP server.
+01.11.2018 14:02:50: INFO Checking object ID:20 Поликарпов А.М. Магазин "Ижмаш".
+01.11.2018 14:02:50: INFO Document files count in directory: 0.
+01.11.2018 14:02:50: INFO End checking waybills on a FTP server.
+01.11.2018 14:03:00: INFO Start checking waybills on a FTP server.
+01.11.2018 14:03:00: INFO Checking object ID:20 Поликарпов А.М. Магазин "Ижмаш".
+01.11.2018 14:03:00: INFO Document files count in directory: 5.
+01.11.2018 14:03:00: INFO Parsing waybill file DESADV_58766045_75cc3823-08a9-41c8-a925-a5041775cea3.xml.
+01.11.2018 14:03:00: ERROR Error adding waybill to db. File: DESADV_58766045_75cc3823-08a9-41c8-a925-a5041775cea3.xml. EntityFramework: An error occurred while executing the command definition. See the inner exception for details..    в System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   в System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   в System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   в System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   в System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   в System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   в System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   в DomainModel.Repository.AccumRegisterRepository.GetAllEntities() в C:\Доработки\EDIHelper\DomainModel\Repository\AccumRegisterRepository.cs:строка 61
+   в DomainModel.Repository.AccumRegisterRepository.GetClientRoamingAmount(Int32 clientID) в C:\Доработки\EDIHelper\DomainModel\Repository\AccumRegisterRepository.cs:строка 135
+   в DomainModel.Repository.AccumRegisterRepository.AddEntity(Int32 clientID, Int32 waybillID, DateTime dateTime, Boolean isRoaming) в C:\Доработки\EDIHelper\DomainModel\Repository\AccumRegisterRepository.cs:строка 31
+   в DomainModel.Logic.WBService.AddRecord(Waybill wb) в C:\Доработки\EDIHelper\DomainModel\Logic\WBService.cs:строка 46
+   в DomainModel.Logic.ManagerFtp.DownloadFiles(TradeObject tradeObject) в C:\Доработки\EDIHelper\DomainModel\Logic\ManagerFtp.cs:строка 66.
+01.11.2018 14:03:00: ERROR Error to save waybill file DESADV_58766045_75cc3823-08a9-41c8-a925-a5041775cea3.xml: mscorlib: Не удалось найти часть пути "C:\Users\Максим\Desktop\Доработка айтиды\Накладные\"..    в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.File.InternalWriteAllBytes(String path, Byte[] bytes, Boolean checkHost)
+   в System.IO.File.WriteAllBytes(String path, Byte[] bytes)
+   в DomainModel.Logic.ManagerFtp.DownloadFiles(TradeObject tradeObject) в C:\Доработки\EDIHelper\DomainModel\Logic\ManagerFtp.cs:строка 84.
+01.11.2018 14:03:00: INFO File /INBOX/Test/DESADV_58766045_75cc3823-08a9-41c8-a925-a5041775cea3.xml was deleted from FTP.
+01.11.2018 14:03:01: INFO Parsing waybill file DESADV_58766047_493e75ba-eefb-434f-8958-375d31c9f503.xml.
+01.11.2018 14:03:01: ERROR Error adding waybill to db. File: DESADV_58766047_493e75ba-eefb-434f-8958-375d31c9f503.xml. EntityFramework: An error occurred while executing the command definition. See the inner exception for details..    в System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   в System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   в System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   в System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   в System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   в System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   в System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   в DomainModel.Repository.AccumRegisterRepository.GetAllEntities() в C:\Доработки\EDIHelper\DomainModel\Repository\AccumRegisterRepository.cs:строка 61
+   в DomainModel.Repository.AccumRegisterRepository.GetClientRoamingAmount(Int32 clientID) в C:\Доработки\EDIHelper\DomainModel\Repository\AccumRegisterRepository.cs:строка 135
+   в DomainModel.Repository.AccumRegisterRepository.AddEntity(Int32 clientID, Int32 waybillID, DateTime dateTime, Boolean isRoaming) в C:\Доработки\EDIHelper\DomainModel\Repository\AccumRegisterRepository.cs:строка 31
+   в DomainModel.Logic.WBService.AddRecord(Waybill wb) в C:\Доработки\EDIHelper\DomainModel\Logic\WBService.cs:строка 46
+   в DomainModel.Logic.ManagerFtp.DownloadFiles(TradeObject tradeObject) в C:\Доработки\EDIHelper\DomainModel\Logic\ManagerFtp.cs:строка 66.
+01.11.2018 14:03:01: ERROR Error to save waybill file DESADV_58766047_493e75ba-eefb-434f-8958-375d31c9f503.xml: mscorlib: Не удалось найти часть пути "C:\Users\Максим\Desktop\Доработка айтиды\Накладные\"..    в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.File.InternalWriteAllBytes(String path, Byte[] bytes, Boolean checkHost)
+   в System.IO.File.WriteAllBytes(String path, Byte[] bytes)
+   в DomainModel.Logic.ManagerFtp.DownloadFiles(TradeObject tradeObject) в C:\Доработки\EDIHelper\DomainModel\Logic\ManagerFtp.cs:строка 84.
+01.11.2018 14:03:01: INFO File /INBOX/Test/DESADV_58766047_493e75ba-eefb-434f-8958-375d31c9f503.xml was deleted from FTP.
+01.11.2018 14:03:01: INFO Parsing waybill file DESADV_58766121_5b5f55a2-ca9e-4695-8b30-1c1797302ff2.xml.
+01.11.2018 14:03:01: ERROR Error adding waybill to db. File: DESADV_58766121_5b5f55a2-ca9e-4695-8b30-1c1797302ff2.xml. EntityFramework: An error occurred while executing the command definition. See the inner exception for details..    в System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   в System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   в System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   в System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   в System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   в System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   в System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   в DomainModel.Repository.AccumRegisterRepository.GetAllEntities() в C:\Доработки\EDIHelper\DomainModel\Repository\AccumRegisterRepository.cs:строка 61
+   в DomainModel.Repository.AccumRegisterRepository.GetClientRoamingAmount(Int32 clientID) в C:\Доработки\EDIHelper\DomainModel\Repository\AccumRegisterRepository.cs:строка 135
+   в DomainModel.Repository.AccumRegisterRepository.AddEntity(Int32 clientID, Int32 waybillID, DateTime dateTime, Boolean isRoaming) в C:\Доработки\EDIHelper\DomainModel\Repository\AccumRegisterRepository.cs:строка 31
+   в DomainModel.Logic.WBService.AddRecord(Waybill wb) в C:\Доработки\EDIHelper\DomainModel\Logic\WBService.cs:строка 46
+   в DomainModel.Logic.ManagerFtp.DownloadFiles(TradeObject tradeObject) в C:\Доработки\EDIHelper\DomainModel\Logic\ManagerFtp.cs:строка 66.
+01.11.2018 14:03:01: ERROR Error to save waybill file DESADV_58766121_5b5f55a2-ca9e-4695-8b30-1c1797302ff2.xml: mscorlib: Не удалось найти часть пути "C:\Users\Максим\Desktop\Доработка айтиды\Накладные\"..    в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.File.InternalWriteAllBytes(String path, Byte[] bytes, Boolean checkHost)
+   в System.IO.File.WriteAllBytes(String path, Byte[] bytes)
+   в DomainModel.Logic.ManagerFtp.DownloadFiles(TradeObject tradeObject) в C:\Доработки\EDIHelper\DomainModel\Logic\ManagerFtp.cs:строка 84.
+01.11.2018 14:03:01: INFO File /INBOX/Test/DESADV_58766121_5b5f55a2-ca9e-4695-8b30-1c1797302ff2.xml was deleted from FTP.
+01.11.2018 14:03:01: INFO Parsing waybill file DESADV_58775371_d436cddd-3815-45fe-a21e-eada0ad1e005.xml.
+01.11.2018 14:03:01: ERROR Error adding waybill to db. File: DESADV_58775371_d436cddd-3815-45fe-a21e-eada0ad1e005.xml. EntityFramework: An error occurred while executing the command definition. See the inner exception for details..    в System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   в System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   в System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   в System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   в System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   в System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   в System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   в DomainModel.Repository.AccumRegisterRepository.GetAllEntities() в C:\Доработки\EDIHelper\DomainModel\Repository\AccumRegisterRepository.cs:строка 61
+   в DomainModel.Repository.AccumRegisterRepository.GetClientRoamingAmount(Int32 clientID) в C:\Доработки\EDIHelper\DomainModel\Repository\AccumRegisterRepository.cs:строка 135
+   в DomainModel.Repository.AccumRegisterRepository.AddEntity(Int32 clientID, Int32 waybillID, DateTime dateTime, Boolean isRoaming) в C:\Доработки\EDIHelper\DomainModel\Repository\AccumRegisterRepository.cs:строка 31
+   в DomainModel.Logic.WBService.AddRecord(Waybill wb) в C:\Доработки\EDIHelper\DomainModel\Logic\WBService.cs:строка 46
+   в DomainModel.Logic.ManagerFtp.DownloadFiles(TradeObject tradeObject) в C:\Доработки\EDIHelper\DomainModel\Logic\ManagerFtp.cs:строка 66.
+01.11.2018 14:03:01: ERROR Error to save waybill file DESADV_58775371_d436cddd-3815-45fe-a21e-eada0ad1e005.xml: mscorlib: Не удалось найти часть пути "C:\Users\Максим\Desktop\Доработка айтиды\Накладные\"..    в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.File.InternalWriteAllBytes(String path, Byte[] bytes, Boolean checkHost)
+   в System.IO.File.WriteAllBytes(String path, Byte[] bytes)
+   в DomainModel.Logic.ManagerFtp.DownloadFiles(TradeObject tradeObject) в C:\Доработки\EDIHelper\DomainModel\Logic\ManagerFtp.cs:строка 84.
+01.11.2018 14:03:01: INFO File /INBOX/Test/DESADV_58775371_d436cddd-3815-45fe-a21e-eada0ad1e005.xml was deleted from FTP.
+01.11.2018 14:03:01: INFO Parsing waybill file DESADV_58775601_ad653b05-97d6-42a6-8978-e872a0a8582e.xml.
+01.11.2018 14:03:01: ERROR Error adding waybill to db. File: DESADV_58775601_ad653b05-97d6-42a6-8978-e872a0a8582e.xml. EntityFramework: An error occurred while executing the command definition. See the inner exception for details..    в System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   в System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   в System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   в System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   в System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   в System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   в System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   в DomainModel.Repository.AccumRegisterRepository.GetAllEntities() в C:\Доработки\EDIHelper\DomainModel\Repository\AccumRegisterRepository.cs:строка 61
+   в DomainModel.Repository.AccumRegisterRepository.GetClientRoamingAmount(Int32 clientID) в C:\Доработки\EDIHelper\DomainModel\Repository\AccumRegisterRepository.cs:строка 135
+   в DomainModel.Repository.AccumRegisterRepository.AddEntity(Int32 clientID, Int32 waybillID, DateTime dateTime, Boolean isRoaming) в C:\Доработки\EDIHelper\DomainModel\Repository\AccumRegisterRepository.cs:строка 31
+   в DomainModel.Logic.WBService.AddRecord(Waybill wb) в C:\Доработки\EDIHelper\DomainModel\Logic\WBService.cs:строка 46
+   в DomainModel.Logic.ManagerFtp.DownloadFiles(TradeObject tradeObject) в C:\Доработки\EDIHelper\DomainModel\Logic\ManagerFtp.cs:строка 66.
+01.11.2018 14:03:01: ERROR Error to save waybill file DESADV_58775601_ad653b05-97d6-42a6-8978-e872a0a8582e.xml: mscorlib: Не удалось найти часть пути "C:\Users\Максим\Desktop\Доработка айтиды\Накладные\"..    в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.File.InternalWriteAllBytes(String path, Byte[] bytes, Boolean checkHost)
+   в System.IO.File.WriteAllBytes(String path, Byte[] bytes)
+   в DomainModel.Logic.ManagerFtp.DownloadFiles(TradeObject tradeObject) в C:\Доработки\EDIHelper\DomainModel\Logic\ManagerFtp.cs:строка 84.
+01.11.2018 14:03:01: INFO File /INBOX/Test/DESADV_58775601_ad653b05-97d6-42a6-8978-e872a0a8582e.xml was deleted from FTP.
+01.11.2018 14:03:01: INFO End checking waybills on a FTP server.
+01.11.2018 14:03:10: INFO Start checking waybills on a FTP server.
+01.11.2018 14:03:10: INFO Checking object ID:20 Поликарпов А.М. Магазин "Ижмаш".
+01.11.2018 14:03:10: INFO Document files count in directory: 0.
+01.11.2018 14:03:10: INFO End checking waybills on a FTP server.
+01.11.2018 14:03:20: INFO Start checking waybills on a FTP server.
+01.11.2018 14:03:20: INFO Checking object ID:20 Поликарпов А.М. Магазин "Ижмаш".
+01.11.2018 14:03:20: INFO Document files count in directory: 0.
+01.11.2018 14:03:20: INFO End checking waybills on a FTP server.
+01.11.2018 14:03:30: INFO Start checking waybills on a FTP server.
+01.11.2018 14:03:30: INFO Checking object ID:20 Поликарпов А.М. Магазин "Ижмаш".
+01.11.2018 14:03:30: INFO Document files count in directory: 0.
+01.11.2018 14:03:30: INFO End checking waybills on a FTP server.
+01.11.2018 14:03:40: INFO Start checking waybills on a FTP server.
+01.11.2018 14:03:40: INFO Checking object ID:20 Поликарпов А.М. Магазин "Ижмаш".
+01.11.2018 14:03:40: INFO Document files count in directory: 0.
+01.11.2018 14:03:40: INFO End checking waybills on a FTP server.
+01.11.2018 14:03:50: INFO Start checking waybills on a FTP server.
+01.11.2018 14:03:50: INFO Checking object ID:20 Поликарпов А.М. Магазин "Ижмаш".
+01.11.2018 14:03:50: INFO Document files count in directory: 0.
+01.11.2018 14:03:50: INFO End checking waybills on a FTP server.
+01.11.2018 14:04:00: INFO Start checking waybills on a FTP server.
+01.11.2018 14:04:00: INFO Checking object ID:20 Поликарпов А.М. Магазин "Ижмаш".
+01.11.2018 14:04:00: INFO Document files count in directory: 0.
+01.11.2018 14:04:00: INFO End checking waybills on a FTP server.
+01.11.2018 14:04:10: INFO Start checking waybills on a FTP server.
+01.11.2018 14:04:10: INFO Checking object ID:20 Поликарпов А.М. Магазин "Ижмаш".
+01.11.2018 14:04:10: INFO Document files count in directory: 0.
+01.11.2018 14:04:10: INFO End checking waybills on a FTP server.
+01.11.2018 14:04:20: INFO Start checking waybills on a FTP server.
+01.11.2018 14:04:20: INFO Checking object ID:20 Поликарпов А.М. Магазин "Ижмаш".
+01.11.2018 14:04:20: INFO Document files count in directory: 0.
+01.11.2018 14:04:20: INFO End checking waybills on a FTP server.
+01.11.2018 14:04:30: INFO Start checking waybills on a FTP server.
+01.11.2018 14:04:30: INFO Checking object ID:20 Поликарпов А.М. Магазин "Ижмаш".
+01.11.2018 14:04:30: INFO Document files count in directory: 0.
+01.11.2018 14:04:30: INFO End checking waybills on a FTP server.
+01.11.2018 14:04:40: INFO Start checking waybills on a FTP server.
+01.11.2018 14:04:40: INFO Checking object ID:20 Поликарпов А.М. Магазин "Ижмаш".
+01.11.2018 14:04:40: INFO Document files count in directory: 0.
+01.11.2018 14:04:40: INFO End checking waybills on a FTP server.
+01.11.2018 14:04:50: INFO Start checking waybills on a FTP server.
+01.11.2018 14:04:50: INFO Checking object ID:20 Поликарпов А.М. Магазин "Ижмаш".
+01.11.2018 14:04:50: INFO Document files count in directory: 0.
+01.11.2018 14:04:50: INFO End checking waybills on a FTP server.
+01.11.2018 14:05:00: INFO Start checking waybills on a FTP server.
+01.11.2018 14:05:00: INFO Checking object ID:20 Поликарпов А.М. Магазин "Ижмаш".
+01.11.2018 14:05:00: INFO Document files count in directory: 0.
+01.11.2018 14:05:00: INFO End checking waybills on a FTP server.
+01.11.2018 14:05:10: INFO Start checking waybills on a FTP server.
+01.11.2018 14:05:10: INFO Checking object ID:20 Поликарпов А.М. Магазин "Ижмаш".
+01.11.2018 14:05:10: INFO Document files count in directory: 0.
+01.11.2018 14:05:10: INFO End checking waybills on a FTP server.
+01.11.2018 14:05:20: INFO Start checking waybills on a FTP server.
+01.11.2018 14:05:20: INFO Checking object ID:20 Поликарпов А.М. Магазин "Ижмаш".
+01.11.2018 14:05:20: INFO Document files count in directory: 0.
+01.11.2018 14:05:20: INFO End checking waybills on a FTP server.
+01.11.2018 14:05:27: INFO Service stopped..

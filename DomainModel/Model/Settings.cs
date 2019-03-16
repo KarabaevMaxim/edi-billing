@@ -1,5 +1,7 @@
 ﻿namespace DomainModel.Model
 {
+	using System;
+
     public class Settings : IEntity
     {
         /// <summary>
@@ -43,6 +45,7 @@
         /// </summary>
         public string UploadExchangeFileName { get; set; }
 
+		public int DayOfMonthToUnload { get; set; }
 
         public bool LikeAs(IEntity other)
         {
@@ -56,11 +59,11 @@
                 return;
             }
 
-            this.FtpUri = newSettings.FtpUri;
-            this.FtpFolder = newSettings.FtpFolder;
-            this.FtpDownloadInttervalSec = newSettings.FtpDownloadInttervalSec;
-            this.FtpIsPassive = newSettings.FtpIsPassive;
-            this.ServiceName = newSettings.ServiceName;
+			foreach (var item in other.GetType().GetProperties())
+			{
+				if(item.Name != "ID")
+					item.SetValue(this, item.GetValue(newSettings));
+			}
         }
     }
 }

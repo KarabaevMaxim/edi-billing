@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTPGui", "FTPGUI\FTPGui.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainModel", "DomainModel\DomainModel.csproj", "{884DCD93-52BC-406A-BEF7-1E139F836712}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelTest", "ModelTest\ModelTest.csproj", "{F51B71DB-7D93-44B5-9F51-8D006F7C4487}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "ModelTest\Tests.csproj", "{F51B71DB-7D93-44B5-9F51-8D006F7C4487}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
