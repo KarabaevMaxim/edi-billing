@@ -1,3 +1,7 @@
 .vs/
 DomainModel/bin/
 packages/
+FTPTransportService/bin/Debug/EdiHelperExchangeService.log
+FTPTransportService/bin/
+FTPTransportService/obj/Debug/FTPTransporter.pdb
+FTPTransportService/obj/Debug/FTPTransporter.exe

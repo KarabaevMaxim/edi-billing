@@ -89,6 +89,7 @@
 				catch (Exception ex)
 				{
 					this.logger.WriteLog(string.Format("{0}, {1}: {2}. Ошибка при выгрузке", ex.Source, ex.StackTrace, ex.Message), LogTypes.ERROR);
+					this.nextExchangeDate = DateTime.Now;
 				}
 
 			}
