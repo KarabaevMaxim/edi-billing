@@ -35,7 +35,7 @@
 
 			processInstallers.Add(new ServiceProcessInstaller
 			{
-				Account = ServiceAccount.User
+				Account = ServiceAccount.LocalSystem
 			});
 
 			serviceInstallers.Add(new ServiceInstaller
@@ -46,7 +46,7 @@
 
 			processInstallers.Add(new ServiceProcessInstaller
 			{
-				Account = ServiceAccount.User
+				Account = ServiceAccount.LocalSystem
 			});
 
 			foreach (var item in serviceInstallers)
