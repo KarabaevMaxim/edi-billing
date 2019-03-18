@@ -36,7 +36,7 @@
             catch(Exception ex)
             {
                 EventLog.Source = "FtpTransporter";
-                EventLog.WriteEntry(string.Format("{0}: {1}. {2}", ex.StackTrace, ex.Message, "Error to initialization settings from database."));
+                EventLog.WriteEntry(string.Format("{0}: {1}. {2}", ex.StackTrace, ex.Message, "Ошибка загрузки настроек из базы"));
             }
 
             this.CanStop = true;
@@ -60,7 +60,7 @@
         protected override void OnStart(string[] args)
         {
             StringBuilder log = new StringBuilder();
-            log.AppendFormat("Service started. Ftp URI: {0}  Check interval: {1} seconds. Passive ftp: {2}. Timeout: {3} seconds",
+            log.AppendFormat("Служба запущена. ФТП URI: {0} Интервал проверки: {1} секунд. Пассивный режим ФТП: {2}. Таймаут: {3} секунд",
                 this.Settings.FtpUri, this.Settings.FtpDownloadInttervalSec, this.Settings.FtpIsPassive, this.Settings.FtpTimeoutSec);
             this.Timer.Enabled = true;
             this.Timer.Interval = this.Settings.FtpDownloadInttervalSec * 1000;
@@ -75,7 +75,7 @@
         /// </summary>
         protected override void OnStop()
         {
-            this.Logger.WriteLog("Service stopped.");
+            this.Logger.WriteLog("Служба остановлена");
 
         }
 
@@ -86,11 +86,17 @@
         /// <param name="e"></param>
         private void Tick(object sender, ElapsedEventArgs e)
         {
-            this.Logger.WriteLog("Start checking waybills on a FTP server");
+            this.Logger.WriteLog("Начало проверки накладных на ФТП сервере");
 
             foreach (var item in this.TradeObjectRepository.GetAllEntities())
             {
-                this.Logger.WriteLog("Checking object ID:" + item.ID + " " + item.Name);
+                this.Logger.WriteLog("Проверка накладных объекта с ID:" + item.ID + " " + item.Name);
+
+				if(!item.IsCheck.HasValue || !item.IsCheck.Value)
+				{
+					this.Logger.WriteLog("Пропуск объекта с ID:" + item.ID + " " + item.Name);
+					continue;
+				}
 
                 try
                 {
@@ -98,11 +104,11 @@
                 }
                 catch (Exception ex)
                 {
-                    this.Logger.WriteLog(string.Format("{0}, {1}: {2}. Error to downloading waybills", ex.Source, ex.StackTrace, ex.Message), LogTypes.ERROR);
+                    this.Logger.WriteLog(string.Format("{0}, {1}: {2}. Ошибка загрузки накладных", ex.Source, ex.StackTrace, ex.Message), LogTypes.ERROR);
                 }
             }
 
-            this.Logger.WriteLog("End checking waybills on a FTP server");
+            this.Logger.WriteLog("Окончание проверки накладных на ФТП сервере");
 		}
     }
 }

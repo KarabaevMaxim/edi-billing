@@ -15,6 +15,7 @@
         public string GLN { get; set; }
         [DisplayName("Client ID")]
         public int ClientID { get; set; }
+		public bool? IsCheck { get; set; }
 
         public void Reinitialization(IEntity other)
         {
