@@ -260,7 +260,7 @@
         {
             XDocument xDoc = new XDocument();
             XElement document = new XElement(this.XNamespace + XmlParser.XmlTagNames[XmlTags.Document]);
-            List<Waybill> waybills = this.WayBillRepository.GetAllEntities().Where(wb => wb.DownloadDate > beginDate && wb.DownloadDate < endDate).ToList();
+            List<Waybill> waybills = this.WayBillRepository.GetAllEntities().Where(wb => wb.DownloadDate >= beginDate && wb.DownloadDate <= endDate).ToList();
             document.Add(this.GetXmlWaybills(waybills));
             xDoc.Add(document);
             return xDoc;
