@@ -26,7 +26,7 @@
 
             this.Name = newTO.Name;
             this.ExCode = newTO.ExCode;
-            this.FtpLogin = newTO.Name;
+            this.FtpLogin = newTO.FtpLogin;
             this.FtpPassword = newTO.FtpPassword;
             this.LocalFolder = newTO.LocalFolder;
             this.Address = newTO.Address;
